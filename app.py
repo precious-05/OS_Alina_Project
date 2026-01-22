@@ -1,3 +1,12 @@
+"""
+####################################################################
+# DEADLOCK DETECTION & RECOVERY SIMULATOR                          #
+# COPYRIGHT 2024 - ALINA LIAQUAT                                    #
+# Contact: [lnliaquat@gmail.com]                          #
+####################################################################
+"""
+
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -243,6 +252,9 @@ st.markdown("""
         background: linear-gradient(135deg, var(--bg-dark) 0%, #0D1524 100%);
         color: var(--text-primary) !important;
     }
+    
+    
+    
     
     /* Fix ALL Streamlit text colors */
     .stMarkdown, p, h1, h2, h3, h4, h5, h6, div, span, label {
